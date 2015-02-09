@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		B81B8DBB1A8826F10089D375 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B81B8DBA1A8826F10089D375 /* main.m */; };
 		B81B8DBE1A8826F10089D375 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B81B8DBD1A8826F10089D375 /* AppDelegate.m */; };
-		B81B8DC11A8826F10089D375 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81B8DC01A8826F10089D375 /* ViewController.m */; };
+		B81B8DC11A8826F10089D375 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81B8DC01A8826F10089D375 /* MainViewController.m */; };
 		B81B8DC41A8826F10089D375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81B8DC21A8826F10089D375 /* Main.storyboard */; };
 		B81B8DC61A8826F10089D375 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B81B8DC51A8826F10089D375 /* Images.xcassets */; };
 		B81B8DC91A8826F10089D375 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B81B8DC71A8826F10089D375 /* LaunchScreen.xib */; };
 		B81B8DD51A8826F20089D375 /* RemindersByLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B81B8DD41A8826F20089D375 /* RemindersByLocationTests.m */; };
+		B81B8DE31A8828120089D375 /* AddReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81B8DE21A8828120089D375 /* AddReminderViewController.m */; };
+		B81B8DE61A882B640089D375 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81B8DE51A882B640089D375 /* MapViewController.m */; };
+		B81B8DE81A88309D0089D375 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B81B8DE71A88309D0089D375 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,19 @@
 		B81B8DBA1A8826F10089D375 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B81B8DBC1A8826F10089D375 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B81B8DBD1A8826F10089D375 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B81B8DBF1A8826F10089D375 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B81B8DC01A8826F10089D375 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B81B8DBF1A8826F10089D375 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B81B8DC01A8826F10089D375 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		B81B8DC31A8826F10089D375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B81B8DC51A8826F10089D375 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B81B8DC81A8826F10089D375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B81B8DCE1A8826F20089D375 /* RemindersByLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemindersByLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81B8DD31A8826F20089D375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B81B8DD41A8826F20089D375 /* RemindersByLocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemindersByLocationTests.m; sourceTree = "<group>"; };
+		B81B8DE11A8828120089D375 /* AddReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddReminderViewController.h; sourceTree = "<group>"; };
+		B81B8DE21A8828120089D375 /* AddReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddReminderViewController.m; sourceTree = "<group>"; };
+		B81B8DE41A882B640089D375 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		B81B8DE51A882B640089D375 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		B81B8DE71A88309D0089D375 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B81B8DE81A88309D0089D375 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 		B81B8DAC1A8826F10089D375 = {
 			isa = PBXGroup;
 			children = (
+				B81B8DE71A88309D0089D375 /* MapKit.framework */,
 				B81B8DB71A8826F10089D375 /* RemindersByLocation */,
 				B81B8DD11A8826F20089D375 /* RemindersByLocationTests */,
 				B81B8DB61A8826F10089D375 /* Products */,
@@ -81,13 +91,14 @@
 		B81B8DB71A8826F10089D375 /* RemindersByLocation */ = {
 			isa = PBXGroup;
 			children = (
-				B81B8DBC1A8826F10089D375 /* AppDelegate.h */,
-				B81B8DBD1A8826F10089D375 /* AppDelegate.m */,
-				B81B8DBF1A8826F10089D375 /* ViewController.h */,
-				B81B8DC01A8826F10089D375 /* ViewController.m */,
-				B81B8DC21A8826F10089D375 /* Main.storyboard */,
 				B81B8DC51A8826F10089D375 /* Images.xcassets */,
 				B81B8DC71A8826F10089D375 /* LaunchScreen.xib */,
+				B81B8DC21A8826F10089D375 /* Main.storyboard */,
+				B81B8DE01A88275D0089D375 /* View */,
+				B81B8DDE1A88274A0089D375 /* ViewController */,
+				B81B8DDF1A8827550089D375 /* Model */,
+				B81B8DBC1A8826F10089D375 /* AppDelegate.h */,
+				B81B8DBD1A8826F10089D375 /* AppDelegate.m */,
 				B81B8DB81A8826F10089D375 /* Supporting Files */,
 			);
 			path = RemindersByLocation;
@@ -117,6 +128,33 @@
 				B81B8DD31A8826F20089D375 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B81B8DDE1A88274A0089D375 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B81B8DBF1A8826F10089D375 /* MainViewController.h */,
+				B81B8DC01A8826F10089D375 /* MainViewController.m */,
+				B81B8DE41A882B640089D375 /* MapViewController.h */,
+				B81B8DE51A882B640089D375 /* MapViewController.m */,
+				B81B8DE11A8828120089D375 /* AddReminderViewController.h */,
+				B81B8DE21A8828120089D375 /* AddReminderViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		B81B8DDF1A8827550089D375 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B81B8DE01A88275D0089D375 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +206,11 @@
 				TargetAttributes = {
 					B81B8DB41A8826F10089D375 = {
 						CreatedOnToolsVersion = 6.2;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					B81B8DCD1A8826F20089D375 = {
 						CreatedOnToolsVersion = 6.2;
@@ -219,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B81B8DC11A8826F10089D375 /* ViewController.m in Sources */,
+				B81B8DE31A8828120089D375 /* AddReminderViewController.m in Sources */,
+				B81B8DC11A8826F10089D375 /* MainViewController.m in Sources */,
+				B81B8DE61A882B640089D375 /* MapViewController.m in Sources */,
 				B81B8DBE1A8826F10089D375 /* AppDelegate.m in Sources */,
 				B81B8DBB1A8826F10089D375 /* main.m in Sources */,
 			);

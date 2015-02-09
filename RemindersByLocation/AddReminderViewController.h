@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AddReminderViewController.h
 //  RemindersByLocation
 //
 //  Created by Stephen on 2/8/15.
@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface ViewController : UIViewController
 
+@interface AddReminderViewController : UIViewController
 
 @end
-

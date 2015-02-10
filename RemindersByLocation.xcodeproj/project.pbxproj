@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B816D8ED1A89CBE2008362D8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B816D8EC1A89CBE2008362D8 /* CoreData.framework */; };
+		B816D8F01A89CC63008362D8 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B816D8EE1A89CC63008362D8 /* DataModel.xcdatamodeld */; };
 		B81B8DBB1A8826F10089D375 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B81B8DBA1A8826F10089D375 /* main.m */; };
 		B81B8DBE1A8826F10089D375 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B81B8DBD1A8826F10089D375 /* AppDelegate.m */; };
 		B81B8DC11A8826F10089D375 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81B8DC01A8826F10089D375 /* MainViewController.m */; };
@@ -30,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B816D8EC1A89CBE2008362D8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B816D8EF1A89CC63008362D8 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		B81B8DB51A8826F10089D375 /* RemindersByLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindersByLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81B8DB91A8826F10089D375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B81B8DBA1A8826F10089D375 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -55,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B816D8ED1A89CBE2008362D8 /* CoreData.framework in Frameworks */,
 				B81B8DE81A88309D0089D375 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +77,7 @@
 		B81B8DAC1A8826F10089D375 = {
 			isa = PBXGroup;
 			children = (
+				B816D8EC1A89CBE2008362D8 /* CoreData.framework */,
 				B81B8DE71A88309D0089D375 /* MapKit.framework */,
 				B81B8DB71A8826F10089D375 /* RemindersByLocation */,
 				B81B8DD11A8826F20089D375 /* RemindersByLocationTests */,
@@ -106,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				B81B8DB91A8826F10089D375 /* Info.plist */,
+				B816D8EE1A89CC63008362D8 /* DataModel.xcdatamodeld */,
 				B81B8DBA1A8826F10089D375 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -265,6 +272,7 @@
 				B81B8DE31A8828120089D375 /* AddReminderViewController.m in Sources */,
 				B81B8DC11A8826F10089D375 /* MainViewController.m in Sources */,
 				B81B8DE61A882B640089D375 /* MapViewController.m in Sources */,
+				B816D8F01A89CC63008362D8 /* DataModel.xcdatamodeld in Sources */,
 				B81B8DBE1A8826F10089D375 /* AppDelegate.m in Sources */,
 				B81B8DBB1A8826F10089D375 /* main.m in Sources */,
 			);
@@ -471,6 +479,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B816D8EE1A89CC63008362D8 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B816D8EF1A89CC63008362D8 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = B816D8EF1A89CC63008362D8 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B81B8DAD1A8826F10089D375 /* Project object */;
 }

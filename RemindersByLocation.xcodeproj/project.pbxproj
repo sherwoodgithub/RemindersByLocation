@@ -97,8 +97,6 @@
 				B81B8DE01A88275D0089D375 /* View */,
 				B81B8DDE1A88274A0089D375 /* ViewController */,
 				B81B8DDF1A8827550089D375 /* Model */,
-				B81B8DBC1A8826F10089D375 /* AppDelegate.h */,
-				B81B8DBD1A8826F10089D375 /* AppDelegate.m */,
 				B81B8DB81A8826F10089D375 /* Supporting Files */,
 			);
 			path = RemindersByLocation;
@@ -139,6 +137,8 @@
 				B81B8DE51A882B640089D375 /* MapViewController.m */,
 				B81B8DE11A8828120089D375 /* AddReminderViewController.h */,
 				B81B8DE21A8828120089D375 /* AddReminderViewController.m */,
+				B81B8DBC1A8826F10089D375 /* AppDelegate.h */,
+				B81B8DBD1A8826F10089D375 /* AppDelegate.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -459,6 +459,7 @@
 				B81B8DDA1A8826F20089D375 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B81B8DDB1A8826F20089D375 /* Build configuration list for PBXNativeTarget "RemindersByLocationTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +468,7 @@
 				B81B8DDD1A8826F20089D375 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
